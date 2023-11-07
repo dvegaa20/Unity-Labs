@@ -1,0 +1,30 @@
+# Vertices Cubo
+v -1 -1 -1
+v -1 -1 1
+v -1 1 -1
+v -1 1 1
+v 1 -1 -1
+v 1 -1 1
+v 1 1 -1
+v 1 1 1
+
+# Vertices Triangulo Superior
+v 0 0 2
+
+# Vertices Triangulo Inferior
+v 0 0 -2
+
+f 1 2 4 3
+f 5 6 8 7
+f 1 2 6 5
+f 3 4 8 7
+f 1 3 7 5
+f 2 4 8 6
+f 8 4 9
+f 4 2 9
+f 6 2 9
+f 6 8 9
+f 7 3 10
+f 3 1 10
+f 5 1 10
+f 5 7 10
